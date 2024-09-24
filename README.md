@@ -1,7 +1,7 @@
 > [!NOTE]
-> Here's scripts to install and integrate Dependency Check and Sonarqube on Jenkins:
+> Scripts para instalar e integrar o Dependency Check e Sonarqube ao Jenkins:
 
-> Dependency check
+> Dependency check:
 ```if [ ! -f /tmp/dependency-check/bin/dependency-check.sh ]
 then
 	curl -Lo /tmp/dependency-check.zip https://github.com/jeremylong/DependencyCheck/releases/download/v10.0.3/dependency-check-10.0.3-release.zip
@@ -11,7 +11,7 @@ fi
 ```
 
 
-> Sonarqube script:
+> Sonarqube:
 ```
 if [ ! -f /tmp/sonar-scanner/bin/sonar-scanner ]
 then
